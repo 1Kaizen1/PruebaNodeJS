@@ -33,7 +33,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
  *         description: API funcionando correctamente
  */
 app.get('/', (req, res) => {
-  res.json({ message: 'API funcionando correctamente 🚀' });
+  res.json({ message: 'API funcionando correctamente !Vamoooo conoooooo!' });
 });
 
 /**
@@ -46,7 +46,7 @@ app.get('/', (req, res) => {
  *         description: Saludo desde la API
  */
 app.get('/api/saludo', (req, res) => {
-  res.json({ saludo: 'Hola desde mi primera API en Node.js 😄' });
+  res.json({ saludo: 'Hola desde mi primera API en Node.js 😄 creo que este es el metodo Loren' });
 });
 
 app.listen(PORT, () => {
